@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\exploded-aar\Feedky\volley\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5ce860081ad16662268b494340e9452c509827d0">
+        <dex dex="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\pre-dexed\debug\classes-06eb19186f1133d5f931500c19626738bef2118b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-f3ef3409d4ad6c39413b0883228067a16a887ac4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\pre-dexed\debug\classes-d3efe9bda5d47ad54f79d20708d9e77f90838d94.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\pre-dexed\debug\classes-cc91725bd8a3152653611bbf6dafa59f26002208.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\pre-dexed\debug\classes-44a0c23d993d9dbe8857c20378d1e74eadaa3b65.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\libs\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-481dd1620e5e17b77c1de7407e2d808f4eba9f04.jar" />
+    </item>
+    <item
+        jar="D:\Users\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\Hermosa Programación\AndroidStudioProjects\Feedky\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-aa117215088df9b9e601c86520281659677de7a0.jar" />
+    </item>
+
+</items>

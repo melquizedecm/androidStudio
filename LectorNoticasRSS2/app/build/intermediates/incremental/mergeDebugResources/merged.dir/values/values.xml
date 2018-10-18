@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio 6</string>
+    <string name="descripcion">Descripción</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_noticia">Noticia</string>
+    <string name="title_activity_ultimas_noticias">Últimas Noticias</string>
+    <string name="titulo">Títutlo</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

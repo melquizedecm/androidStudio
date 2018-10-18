@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LectorNoticias</string>
+    <string name="titulo">Título</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="title_activity_main">Noticia</string>
+    <string name="title_activity_notica">Detalle de Noticias</string>
+</resources>

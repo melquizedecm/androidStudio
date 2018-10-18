@@ -1,0 +1,50 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/melqui/AndroidStudioProjects/LectorNoticasRSS1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/melqui/AndroidStudioProjects/LectorNoticasRSS1/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "551",
+                        "endColumns": "57",
+                        "endOffsets": "604"
+                    }
+                },
+                {
+                    "source": "/Users/melqui/AndroidStudioProjects/LectorNoticasRSS1/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "167,216,268,321,372,432,509",
+                        "endColumns": "48,51,52,50,59,76,41",
+                        "endOffsets": "211,263,316,367,427,504,546"
+                    }
+                },
+                {
+                    "source": "/Users/melqui/AndroidStudioProjects/LectorNoticasRSS1/app/src/main/res/values/Array.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "19",
+                        "endOffsets": "162"
+                    }
+                }
+            ]
+        }
+    ]
+}

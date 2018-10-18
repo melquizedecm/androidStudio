@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LectorNoticias</string>
+    <string name="title_activity_detail">activity_detail</string>
+</resources>
