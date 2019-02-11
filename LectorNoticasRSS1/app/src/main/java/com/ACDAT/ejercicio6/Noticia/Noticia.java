@@ -32,6 +32,7 @@ public class Noticia implements Serializable{
 		this.descripcion = descripcion;
 		this.fechaPublicacion = fechaPublicacion;
 		this.url = url;
+
 	}
 
 	

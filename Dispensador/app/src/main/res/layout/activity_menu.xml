@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/coc">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="***ELIJE TU BEBIDA***"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/cuba"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="CUBA"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/paloma"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="PALOMA"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/whisky"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="WHISKY"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/charro"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="CHARRO NEGRO"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/cubacagua"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="CUBA C/AGUA MINERAL"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/logo"/>
+</RelativeLayout>

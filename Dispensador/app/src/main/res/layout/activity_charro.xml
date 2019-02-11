@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".palomaActivity"
+    android:background="@drawable/coc">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:text="**CHARRO NEGRO**"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:text="-Tequila 45 ml"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:text="-Coca cola 250 ml"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/btnmenu"
+        android:layout_height="80dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="70dp"
+        android:text="Volver a Menu Principal"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/btnok"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="250dp"
+        android:text="OK"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>

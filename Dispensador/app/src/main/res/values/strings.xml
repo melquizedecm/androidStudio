@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TEC 60</string>
+    <string name="none_paired" />
+    <string name="title_activity_main">MainActivity</string>
+</resources>

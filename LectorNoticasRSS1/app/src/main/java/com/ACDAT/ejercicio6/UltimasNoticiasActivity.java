@@ -36,7 +36,7 @@ public class UltimasNoticiasActivity extends Activity {
 	private  URL url;
 	private ArrayList<Noticia> noticias;
 	private String[] titulos;
-	private String urlParameter="http://ep00.epimg.net/rss/tags/ultimas_noticias.xml";
+	private String urlParameter="http://www.aztecanoticias.com.mx/rss/mexico.xml";
 
 	/**
 	 * Al iniciar la actividad
@@ -70,7 +70,7 @@ public class UltimasNoticiasActivity extends Activity {
 		//	url = new URL("http://ep00.epimg.net/rss/tags/ultimas_noticias.xml");
 		//	url= new URL("http://www.reforma.com/rss/ciencia.xml");
         //  url= new URL("http://www.aztecanoticias.com.mx/rss/mexico.xml");
-        //    url= new URL("http://rss.televisa.com/noticieros/index.xml");
+        //  url= new URL("http://rss.televisa.com/noticieros/index.xml");
 			url = new URL(urlParameter);
 			
 			leerDatos();
@@ -120,11 +120,13 @@ public class UltimasNoticiasActivity extends Activity {
     	boolean link;				// Almacena si se ha leido el link
     	boolean pubDate;			// Almacena si se ha leido la fecha de publicación
     	boolean contentEncoded;		// Almacena si se ha leido el contenido
-    	
+
+
     	ArrayList<String> titles;			// Almacena los títutlos de la noticias
     	ArrayList<String> links;			// Almacena los links de las noticias
     	ArrayList<String> pubDates;			// Almacena las fechas de publicación de las noticias
     	ArrayList<String> contentEncodeds;	// Almacena el contenido de las noticias
+
     	
     	int contador;				// Controla que no salga los dos primeros titulos
     	int contadorDescription;
@@ -134,6 +136,7 @@ public class UltimasNoticiasActivity extends Activity {
     	links = new ArrayList<String>();
     	pubDates = new ArrayList<String>();
     	contentEncodeds = new ArrayList<String>();
+
     	
     	// Inicializa el contador
     	contador = 0;
@@ -170,7 +173,7 @@ public class UltimasNoticiasActivity extends Activity {
 						
 						// Controla que no aparezca los dos primeros títulos
 						if (contador > 2){
-							
+
 							title = true;
 
 						}
@@ -197,7 +200,7 @@ public class UltimasNoticiasActivity extends Activity {
 					}
 					
 					break;
-				
+
 					
 				case XmlPullParser.TEXT:
 					
@@ -216,6 +219,8 @@ public class UltimasNoticiasActivity extends Activity {
 					if (contentEncoded){
 						contentEncodeds.add(xml.getText());
 					}
+
+
 					
 					
 					break;
