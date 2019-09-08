@@ -98,4 +98,15 @@
         android:layout_marginTop="27dp"
         android:text="Buscar" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonGuardar"
+        android:layout_alignTop="@+id/button2"
+        android:text="buttonPost"
+        android:onClick="postGuardar"
+        />
+
+
 </RelativeLayout>

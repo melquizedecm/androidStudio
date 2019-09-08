@@ -1,6 +1,7 @@
 package es.hol.melqui.usersdatabase;
 
 import android.content.Context;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     /////LEER EN FORMATO JSON
 
                     JSONArray jsonArray = new JSONArray (response);
-                    JSONObject jsonObject = jsonArray.getJSONObject (19);
+                    JSONObject jsonObject = jsonArray.getJSONObject (47);
 
                         String firstName = jsonObject.getString ("first_name");
                         String lastName = jsonObject.getString ("last_name");
@@ -67,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
                         String lastNameDecrypted= decrypter(lastName);
                         String numberPhoneDecrypted= decrypter(numberPhone);
 
-                        firstNameEdit.setText (firstNameDecrypted);
-                        lastNameEdit.setText (lastNameDecrypted);
-                        numberPhoneEdit.setText (numberPhoneDecrypted);
+                        firstNameEdit.setText (firstName);
+                        lastNameEdit.setText (lastName);
+                        numberPhoneEdit.setText (numberPhone);
 
                 } catch (InterruptedException e) {
                     e.printStackTrace ( );
@@ -83,30 +84,30 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        setButton.setOnClickListener (new View.OnClickListener ( ) {
+      /*  setButton.setOnClickListener (new View.OnClickListener ( ) {
             @Override
             public void onClick(View view) {
                 ClassConnectionPost post = new ClassConnectionPost ();
                 String response = post.doInBackground("https://melquizedecm.000webhostapp.com/movilII/controller/setUsersPost.php");
             }
         });
-        ///////GUARDAR DATOS/////
+*/        ///////GUARDAR DATOS/////
 
-      /*  setButton.setOnClickListener (new View.OnClickListener ( ) {
+        setButton.setOnClickListener (new View.OnClickListener ( ) {
             @Override
             public void onClick(View view) {
                 String firstName=firstNameEdit.getText ().toString ();
                 String lastName= lastNameEdit.getText ().toString ();
                 String numberPhone= numberPhoneEdit.getText ().toString ();
 
-                String firstNameEncrypted = encrypter(firstName);
-                String lastNameEncrypted= encrypter (lastName);
-                String numberPhoneEncrypted= encrypter (numberPhone);
+              //  String firstNameEncrypted = encrypter(firstName);
+              //  String lastNameEncrypted= encrypter (lastName);
+              //  String numberPhoneEncrypted= encrypter (numberPhone);
 
 
                 ClassConnection connection = new ClassConnection ( );
                 try {
-                    String response = connection.execute ("https://melquizedecm.000webhostapp.com/movilII/controller/setUsers.php?firstName="+firstNameEncrypted +"&lastName="+lastNameEncrypted+"&numberPhone="+numberPhoneEncrypted).get ( );
+                    String response = connection.execute ("https://melquizedecm.000webhostapp.com/movilII/controller/setUsers.php?firstName="+firstName +"&lastName="+lastName+"&numberPhone="+numberPhone).get ( );
                     if (response != null) {
                         Toast.makeText (getApplicationContext ( ), "Guardado exitoso", Toast.LENGTH_LONG).show ( );
                         firstNameEdit.setText ("");
@@ -123,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-*/
+
 
         //////BUSCAR DATOS///////
 
@@ -134,9 +135,9 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     String datoBuscar=firstNameEdit.getText ().toString ();
 
-                    String datoEncriptado=encrypter (datoBuscar);
+                 //   String datoEncriptado=encrypter (datoBuscar);
 
-                    String response = connection.execute("https://melquizedecm.000webhostapp.com/movilII/controller/searchUsers.php?firstName="+datoEncriptado).get ();
+                    String response = connection.execute("https://melquizedecm.000webhostapp.com/movilII/controller/searchUsers.php?firstName="+datoBuscar).get ();
 
                     /////LEER EN FORMATO JSON
 
@@ -183,4 +184,29 @@ public class MainActivity extends AppCompatActivity {
         }
         return String.valueOf (arrayMessage);
     }
+
+    public void  agregarPost(){
+
+    }
+
+    public void postGuardar(View view) {
+        ClassConnectionPost connectionPost =new ClassConnectionPost ();
+        Uri.Builder builder=new Uri.Builder()
+                .appendQueryParameter("full_name", "zz")
+                .appendQueryParameter("email", "0")
+                .appendQueryParameter("username", "0")
+                .appendQueryParameter("password","1")
+                .appendQueryParameter("tipo","1");
+        String query = builder.build().getEncodedQuery();
+        String response="";
+        try {
+            response=connectionPost.execute ("http://ebenezer.hol.es/tienda/ventas/source/agregar_usuario.php",query).get ();
+        } catch (InterruptedException e) {
+            e.printStackTrace ( );
+        } catch (ExecutionException e) {
+            e.printStackTrace ( );
+        }
+
+    }
 }
+

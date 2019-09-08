@@ -31,7 +31,7 @@ public class ClassConnection extends AsyncTask<String,String,String> {
 
         try {
             httpURLConnection = (HttpURLConnection) url.openConnection ();
-            httpURLConnection.connect ();
+            httpURLConnection.connect();
             int code =httpURLConnection.getResponseCode ();
             if (code == HttpURLConnection.HTTP_OK){
                 InputStream in = new BufferedInputStream (httpURLConnection.getInputStream ());

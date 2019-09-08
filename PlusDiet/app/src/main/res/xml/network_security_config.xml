@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-secur-ity-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://www.laboratoriotec.com</domain>
+    </domain-config>
+</network-secur-ity-config>

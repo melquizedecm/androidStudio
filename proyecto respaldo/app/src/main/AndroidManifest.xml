@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miguel.kuiny">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".mostraractividadesempresas"></activity>
+        <activity
+            android:name=".detalleact"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity"></activity>
+        <activity
+            android:name=".mostraractividad"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".actividades"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".about"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".registroemp"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".loginusuarios"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".loginempresa"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".miembros"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity" />
+        <activity
+            android:name=".splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeSegundaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

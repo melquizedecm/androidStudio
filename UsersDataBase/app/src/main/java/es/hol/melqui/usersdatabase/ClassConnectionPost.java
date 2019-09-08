@@ -38,15 +38,11 @@ public class ClassConnectionPost extends AsyncTask<String,String,String> {
             httpURLConnection.setRequestMethod("POST");
             httpURLConnection.setDoInput(true);
             httpURLConnection.setDoOutput(true);
-            Uri.Builder builder=new Uri.Builder()
-                    .appendQueryParameter("firstName", "Ana2")
-                    .appendQueryParameter("lastName","Tec2")
-                    .appendQueryParameter("numberPhone","99900000");
-            String query = builder.build().getEncodedQuery();
+
 
             OutputStream os = httpURLConnection.getOutputStream();
             BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(os,"UTF-8"));
-            writer.write(query);
+            writer.write(strings[1]);
             writer.flush();
             writer.close();
             os.close();

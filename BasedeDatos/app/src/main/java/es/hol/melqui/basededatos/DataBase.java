@@ -17,7 +17,8 @@ public class DataBase extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("CREATE TABLE prueba(id integer primary key,dato text)");
+        String sql="CREATE TABLE prueba(id integer primary key,dato text)";
+        sqLiteDatabase.execSQL(sql);
     }
 
     @Override

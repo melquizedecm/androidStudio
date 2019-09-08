@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_kuiny"
+    tools:context=".actividades">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editFecha"
+                android:layout_width="143dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="177dp"
+                android:layout_marginEnd="62dp"
+                android:layout_marginBottom="51dp"
+                android:ems="10"
+                android:inputType="none|textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/textView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nomacti" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="312dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="59dp"
+                android:text="Registro de actividad"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="193dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="82dp"
+                android:text="Nombre de actividad"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <EditText
+                android:id="@+id/nomacti"
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="70dp"
+                android:ems="10"
+                android:hint="Nombre de actividad"
+                android:inputType="text"
+                android:singleLine="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/tv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="215dp"
+                android:text="Hora de la actividad"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nomacti" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="205dp"
+                android:text="Fecha de la actividad"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etHora" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="343dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="35dp"
+                android:text="Seleccione el campo para mostrar la actividad."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etFecha" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="158dp"
+                android:text="Descripcion de la actividad"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbactivo" />
+
+            <EditText
+                android:id="@+id/descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="165dp"
+                android:ems="10"
+                android:hint="Descripción de la actividad"
+                android:inputType="text"
+                android:maxLength="255"
+                android:singleLine="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="237dp"
+                android:text="Limite de personas"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descripcion" />
+
+            <EditText
+                android:id="@+id/limitepersonas"
+                android:layout_width="206dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="172dp"
+                android:digits="0123456789"
+                android:ems="10"
+                android:hint="Limite de personas"
+                android:inputType="number"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <Button
+                android:id="@+id/regact"
+                android:layout_width="149dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/aceptar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etdireccion" />
+
+            <TextView
+                android:id="@+id/tvdireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="301dp"
+                android:text="Dirección"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/limitepersonas" />
+
+            <EditText
+                android:id="@+id/etdireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="165dp"
+                android:ems="10"
+                android:hint="Dirección de la actividad"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvdireccion" />
+
+            <EditText
+                android:id="@+id/etHora"
+                android:layout_width="67dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintBottom_toTopOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv22" />
+
+            <EditText
+                android:id="@+id/etFecha"
+                android:layout_width="149dp"
+                android:layout_height="82dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/fecha"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="none"
+                app:layout_constraintBottom_toTopOf="@+id/textView22"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="42dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="15dp"
+                android:text=":"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView6"
+                app:layout_constraintStart_toEndOf="@+id/etHora"
+                app:layout_constraintTop_toBottomOf="@+id/tv22" />
+
+            <EditText
+                android:id="@+id/etMinutos"
+                android:layout_width="67dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintBottom_toTopOf="@+id/textView6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv22" />
+
+            <CheckBox
+                android:id="@+id/cbactivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="306dp"
+                android:text="Activo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <Button
+                android:id="@+id/btso"
+                android:layout_width="149dp"
+                android:layout_height="79dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="23dp"
+                android:background="@drawable/solicitar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etdireccion" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

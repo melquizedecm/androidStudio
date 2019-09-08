@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/6b0f9af2689acaf6c22026ad1ba35332/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/122e704fd2a158b80657173762bf73db/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/c8642782d20b779e7f1c88b4163808ca/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/1a0e7a489dd1f87573c53ccd9f7d742c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/08a86ffc039a8cb4976b9e040863a3a0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/1dc943948996a2ea0d688b807c09854b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:percent:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/20ae05647f1d89149e5472b4016cd758/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/bbcf920db2ee22dc80fd8067e12ab520/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/a208961a3fb7a3390b69bcad01ba19b2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/17c41c33c7c0921360b7a25745aae4be/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/31d97821348423a4750f1e8316f743f9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ef273d49a4a434f28d8bfab6e7329bee/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:120-152
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:94-119
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:2:70-93
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:3:5-73
+MERGED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/6b0f9af2689acaf6c22026ad1ba35332/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/6b0f9af2689acaf6c22026ad1ba35332/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/122e704fd2a158b80657173762bf73db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/122e704fd2a158b80657173762bf73db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/c8642782d20b779e7f1c88b4163808ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/c8642782d20b779e7f1c88b4163808ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/1a0e7a489dd1f87573c53ccd9f7d742c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/1a0e7a489dd1f87573c53ccd9f7d742c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/08a86ffc039a8cb4976b9e040863a3a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/08a86ffc039a8cb4976b9e040863a3a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/1dc943948996a2ea0d688b807c09854b/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/1dc943948996a2ea0d688b807c09854b/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:percent:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/20ae05647f1d89149e5472b4016cd758/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/20ae05647f1d89149e5472b4016cd758/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/bbcf920db2ee22dc80fd8067e12ab520/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/bbcf920db2ee22dc80fd8067e12ab520/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/a208961a3fb7a3390b69bcad01ba19b2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/a208961a3fb7a3390b69bcad01ba19b2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/17c41c33c7c0921360b7a25745aae4be/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/17c41c33c7c0921360b7a25745aae4be/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/31d97821348423a4750f1e8316f743f9/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/31d97821348423a4750f1e8316f743f9/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ef273d49a4a434f28d8bfab6e7329bee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ef273d49a4a434f28d8bfab6e7329bee/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:3:5-73
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:3:42-71
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:3:15-41
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:4:5-11:19
+MERGED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/6b0f9af2689acaf6c22026ad1ba35332/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/6b0f9af2689acaf6c22026ad1ba35332/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:9:5-13:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/122e704fd2a158b80657173762bf73db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/122e704fd2a158b80657173762bf73db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/c8642782d20b779e7f1c88b4163808ca/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/c8642782d20b779e7f1c88b4163808ca/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/1a0e7a489dd1f87573c53ccd9f7d742c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/1a0e7a489dd1f87573c53ccd9f7d742c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/08a86ffc039a8cb4976b9e040863a3a0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/08a86ffc039a8cb4976b9e040863a3a0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/1dc943948996a2ea0d688b807c09854b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/1dc943948996a2ea0d688b807c09854b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:percent:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/20ae05647f1d89149e5472b4016cd758/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:percent:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/20ae05647f1d89149e5472b4016cd758/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/bbcf920db2ee22dc80fd8067e12ab520/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/bbcf920db2ee22dc80fd8067e12ab520/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/a208961a3fb7a3390b69bcad01ba19b2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/a208961a3fb7a3390b69bcad01ba19b2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/17c41c33c7c0921360b7a25745aae4be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/17c41c33c7c0921360b7a25745aae4be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/31d97821348423a4750f1e8316f743f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/31d97821348423a4750f1e8316f743f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ef273d49a4a434f28d8bfab6e7329bee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ef273d49a4a434f28d8bfab6e7329bee/AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:4:48-70
+	android:icon
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:4:18-47
+activity#processing.test.hc05_p.MainActivity
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:5:9-10:20
+	android:theme
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:5:48-115
+	android:name
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:5:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:6:13-9:29
+action#android.intent.action.MAIN
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:7:17-68
+	android:name
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:7:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:8:17-76
+	android:name
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:8:27-74
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from /Users/melqui/AndroidStudioProjects/android.190530.1331/app/src/main/AndroidManifest.xml:13:22-71
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/6b0f9af2689acaf6c22026ad1ba35332/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/6b0f9af2689acaf6c22026ad1ba35332/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/122e704fd2a158b80657173762bf73db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/122e704fd2a158b80657173762bf73db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/c8642782d20b779e7f1c88b4163808ca/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/c8642782d20b779e7f1c88b4163808ca/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/1a0e7a489dd1f87573c53ccd9f7d742c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/1a0e7a489dd1f87573c53ccd9f7d742c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/08a86ffc039a8cb4976b9e040863a3a0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/08a86ffc039a8cb4976b9e040863a3a0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/1dc943948996a2ea0d688b807c09854b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/1dc943948996a2ea0d688b807c09854b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:percent:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/20ae05647f1d89149e5472b4016cd758/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:percent:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/20ae05647f1d89149e5472b4016cd758/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/bbcf920db2ee22dc80fd8067e12ab520/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/bbcf920db2ee22dc80fd8067e12ab520/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/a208961a3fb7a3390b69bcad01ba19b2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/a208961a3fb7a3390b69bcad01ba19b2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/17c41c33c7c0921360b7a25745aae4be/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/17c41c33c7c0921360b7a25745aae4be/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/31d97821348423a4750f1e8316f743f9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/31d97821348423a4750f1e8316f743f9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ef273d49a4a434f28d8bfab6e7329bee/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ef273d49a4a434f28d8bfab6e7329bee/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.2] /Users/melqui/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/b08d868452bdc82705ffb7f92972c55e/AndroidManifest.xml:27:13-51
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.google.android.support:wearable:2.1.0] /Users/melqui/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/e72073fc32d6695c46de8f737fe3eaff/AndroidManifest.xml:11:13-55

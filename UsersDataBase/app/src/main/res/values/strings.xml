@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UsersDataBase</string>
+    <string name="title_activity_screenlock">Screenlock</string>
 </resources>
